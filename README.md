@@ -2,6 +2,7 @@
 Drowsiness and Yawning Detection using OpenCV and 
 
 Dependencies
+
 1.Python3
 2.OpenCV
 3.Dlib
@@ -12,9 +13,10 @@ Dependencies
 
 Run
 Python3 Drowsiness_Detecter -- webcam 0		//For external webcam, use the webcam number accordingly
-                                                //For rasberry pi just change the webcam index to 1
+                                          //For rasberry pi just change the webcam index to 1
 
 Setups
+
 Change the threshold values according to your need
 
 EYE_AR_THRESH = 0.3
