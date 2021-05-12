@@ -130,7 +130,7 @@ while True:
             COUNTER += 1
 
             if COUNTER >= EYE_AR_CONSEC_FRAMES:
-                if alarm_status == False:
+                if not alarm_status:
                     alarm_status = True
                     t = Thread(target=alarm, args=('wake up sir',))
                     t.deamon = True
